@@ -6,7 +6,7 @@
 # dependencies
 include_recipe 'apt::default'
 include_recipe 'java::default'
-include_recipe 'nodejs::nodejs_from_binary'
+include_recipe 'nodejs::nodejs_from_package'
 include_recipe 'elasticsearch::default'
 include_recipe 'elasticsearch::plugins'
 
